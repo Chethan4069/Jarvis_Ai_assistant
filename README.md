@@ -24,3 +24,22 @@ JARVIS is a voice-controlled AI-powered virtual assistant built with Python that
 💻 GUI interface using PyQt5
 
 🔌 Modular codebase for easy extension
+
+Folder Structure (Updated)
+
+jarvis-ai-assistant/
+│
+├── Backend/
+│   ├── SpeechToText.py
+│   ├── TextToSpeech.py
+│   ├── CommandProcessor.py
+│   ├── ImageGenerator.py  ← NEW
+│
+├── Frontend/
+│   ├── GUI.py
+│   ├── assets/
+│
+├── Main.py
+├── requirements.txt
+├── README.md
+
